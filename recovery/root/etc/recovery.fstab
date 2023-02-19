@@ -35,5 +35,5 @@
 /storage        ext4   	/data/media/0                  		     		        flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
 # Removable storage
-/sdcard1        vfat    /dev/block/mmcblk1p1  /dev/block/mmc1k1p1               flags=display="Micro SDcard";storage;wipeingui;removable
+/external_sdcard        vfat    /dev/block/mmcblk1p1  /dev/block/mmc1k1p1               flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg        vfat    /dev/block/sda1       /dev/block/sda                    flags=display="USB-Storage";storage;wipeingui;removable
